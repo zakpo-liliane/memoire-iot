@@ -1,0 +1,11 @@
+# Jeux de données source (trop volumineux pour Git)
+Datasense-IIoT-2025/
+
+# Fichiers temporaires Jupyter et Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Fichiers système
+.DS_Store
+Thumbs.db
