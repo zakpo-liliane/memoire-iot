@@ -9,3 +9,6 @@ __pycache__/
 # Fichiers système
 .DS_Store
 Thumbs.db
+
+# Métadonnées locales de Visual Studio
+.vs/
