@@ -1,0 +1,2 @@
+﻿Modèle,N_estimators,Max depth,Validation,Nombre de classes,Macro F1 moyen,Écart-type,Meilleur fold,Pire fold,Accuracy dernier fold,PR-AUC moyenne,Échantillons dernier fold,Prédictions correctes,Erreurs dernier fold
+Random Forest,100,15,Stratified K-Fold (5 folds),8,1.0,0.0001,1.0,0.9998,0.9999,1.0,137134,137124,10

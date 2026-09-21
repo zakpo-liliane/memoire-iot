@@ -12,3 +12,9 @@ Thumbs.db
 
 # Métadonnées locales de Visual Studio
 .vs/
+# Checkpoints et r?sultats g?n?r?s par les entra?nements
+artifacts/
+
+# Profils temporaires utilisés pour le rendu de notebooks
+.chrome_render_profile/
+.edge_render_profile/
