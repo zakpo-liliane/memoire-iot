@@ -1,0 +1,12 @@
+{
+  "model": "random_forest",
+  "feature_count": 39,
+  "training_samples": 13600,
+  "test_samples": 3400,
+  "sampling": "1000 premières lignes de chaque CSV source",
+  "target": "label2",
+  "accuracy": 0.9873529411764705,
+  "macro_f1": 0.9869561543888125,
+  "validation_status": "VALIDATED",
+  "note": "Validation stratifiée sur un holdout local ; à compléter par un test temporel/externe pour une production réelle."
+}

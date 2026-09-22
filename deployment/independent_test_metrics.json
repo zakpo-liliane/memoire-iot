@@ -1,0 +1,39 @@
+{
+  "model": "random_forest",
+  "feature_count": 39,
+  "training_samples": 13600,
+  "test_samples": 3400,
+  "sampling": "1000 premières lignes de chaque CSV source",
+  "target": "label2",
+  "accuracy": 0.9873529411764705,
+  "macro_f1": 0.9869561543888125,
+  "validation_status": "VALIDATED",
+  "note": "Validation stratifiée sur un holdout local ; à compléter par un test temporel/externe pour une production réelle.",
+  "report": {
+    "0": {
+      "precision": 0.9909683893627697,
+      "recall": 0.9875,
+      "f1-score": 0.9892311545204108,
+      "support": 2000.0
+    },
+    "1": {
+      "precision": 0.9822316986496091,
+      "recall": 0.9871428571428571,
+      "f1-score": 0.9846811542572141,
+      "support": 1400.0
+    },
+    "accuracy": 0.9873529411764705,
+    "macro avg": {
+      "precision": 0.9866000440061894,
+      "recall": 0.9873214285714286,
+      "f1-score": 0.9869561543888125,
+      "support": 3400.0
+    },
+    "weighted avg": {
+      "precision": 0.98737092848088,
+      "recall": 0.9873529411764705,
+      "f1-score": 0.9873576250002709,
+      "support": 3400.0
+    }
+  }
+}
