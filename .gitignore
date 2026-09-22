@@ -15,6 +15,9 @@ Thumbs.db
 # Checkpoints et r?sultats g?n?r?s par les entra?nements
 artifacts/
 
+# Artefacts binaires recréables localement
+deployment/*.joblib
+
 # Profils temporaires utilisés pour le rendu de notebooks
 .chrome_render_profile/
 .edge_render_profile/
